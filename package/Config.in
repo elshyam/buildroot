@@ -1422,6 +1422,7 @@ menu "Hardware handling"
 	source "package/tslib/Config.in"
 	source "package/urg/Config.in"
 	source "package/wiringpi/Config.in"
+	source "package/arm-gnu-rm-toolchain/Config.in"
 endmenu
 
 menu "Javascript"
