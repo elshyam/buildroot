@@ -1,0 +1,5 @@
+config BR2_PACKAGE_MMTEST
+	bool "kernel_modules"
+	depends on BR2_LINUX_KERNEL
+	help
+		simple kernel module
